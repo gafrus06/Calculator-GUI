@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.85" prefHeight="488.0" prefWidth="311.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.CalculatorController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.85" prefHeight="389.0" prefWidth="311.0" style="-fx-background-color: gray;">
+         <children>
+            <Circle fx:id="digit2" fill="#23394e" layoutX="114.0" layoutY="99.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit3" fill="#23394e" layoutX="186.0" layoutY="99.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit4" fill="#23394e" layoutX="46.0" layoutY="186.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit5" fill="#23394e" layoutX="114.0" layoutY="186.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit6" fill="#23394e" layoutX="186.0" layoutY="185.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit7" fill="#23394e" layoutX="46.0" layoutY="273.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit9" fill="#23394e" layoutX="186.0" layoutY="273.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="digit8" fill="#23394e" layoutX="114.0" layoutY="273.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="178.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="106.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="38.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="178.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="106.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="38.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="106.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Text disable="true" fill="WHITE" layoutX="178.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="digit0" fill="#23394e" layoutX="114.0" layoutY="353.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="106.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonFloat" fill="#23394e" layoutX="186.0" layoutY="352.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="182.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text=",">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonEquls" fill="#23394e" layoutX="265.0" layoutY="351.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="257.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonPlus" fill="#23394e" layoutX="265.0" layoutY="273.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="255.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonMinus" fill="#23394e" layoutX="265.0" layoutY="184.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="260.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonX" fill="#23394e" layoutX="265.0" layoutY="99.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="257.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonDel" fill="#23394e" layoutX="46.0" layoutY="353.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="38.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="buttonCleat" fill="#23394e" layoutX="265.0" layoutY="29.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="246.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AC">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+            <Circle fx:id="digit1" fill="#23394e" layoutX="46.0" layoutY="99.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text disable="true" fill="WHITE" layoutX="38.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="TextField" layoutX="-6.0" layoutY="-6.0" opacity="0.2" prefHeight="106.0" prefWidth="322.0" />
+   </children>
+</AnchorPane>
